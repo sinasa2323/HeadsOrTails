@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+
+
+
+body{
+    
+    background-image: url("../img/Static.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+#b1{
+    width: 10rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 20rem;
+    margin-left: 62px;
+}
+#b2{
+    width: 10rem;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left: 20rem;
+}
+
+@media screen and (max-width:991.98px) {
+    #b1{
+        
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #b2{
+       
+        margin-left: 0;
+    }
+}
+
+.message{
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
